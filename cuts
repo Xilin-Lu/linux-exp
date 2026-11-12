@@ -1,0 +1,5 @@
+#!/bin/bash
+IFS= read -r line
+start=$(($1 - 1))
+length=$(($2 - $1 + 1))
+printf '%s\n' "${line:start:length}"
