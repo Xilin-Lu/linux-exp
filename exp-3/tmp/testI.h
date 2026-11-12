@@ -1,0 +1,1 @@
+#define fatal hello
